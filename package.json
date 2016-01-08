@@ -1,0 +1,24 @@
+{
+  "name": "is-es6-error",
+  "version": "1.0.0",
+  "description": "is es6 error",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/webpack && node bundle.js"
+  },
+  "keywords": [
+    "demo",
+    "is.js"
+  ],
+  "author": "alex.baumgertner@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "is_js": "^0.7.6",
+    "webpack": "^1.12.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
